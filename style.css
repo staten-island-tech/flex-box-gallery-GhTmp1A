@@ -1,30 +1,50 @@
+
+html, body *
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+img{
+    height: 3rem;
+}
 .header{
-    background-color: orangered;
+    background-color: salmon;
     color: white;
     height: 95vh;
     justify-content: center;
 }
 
-.header{
+flex-c
+
+.header-title{
     font-size: 8rem;
     text-align: center;
-}
-img{
-    height: 3rem;
 }
 
 .about{
     height: 100vh;
     background-color: hotpink;
+    @include
 }
 
+.about-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: blue;
+    height: 100%;
+    width: 80vw;
+    margin: 0 auto;
 
+}
 
-html,
-body,
-*  {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 62.5%;
+.about-col{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: indigo;
+    height: 90%;
+    width: 25%;
 }
