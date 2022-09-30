@@ -12,7 +12,7 @@ body,
 .header{
     background-color: salmon;
     color: white;
-    height: 50vh;
+    height: 45vh;
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -35,10 +35,19 @@ body,
 }
 
 .controller{
-    width: 28%;
-    border: 6px solid rgb(0, 0, 0);
+    width: 27%;
+    border: 25px solid rgb(0, 0, 0);
     text-align: center;
     height: 450px;
     align-items: center;
+    margin: 50px;
+    padding-top: 32px;
+    background-color: white;
+    box-shadow: gray 10px 10px;
+    border-radius: 65px;
+    font-size: 40px;
 }
 
+.objecttext{
+    padding-top: 70%;
+}
