@@ -5,6 +5,7 @@ body,
     padding:0;
     box-sizing:border-box;
     font-size: 62.5%;
+    background-image: ;
 }
 
 
@@ -35,10 +36,10 @@ body,
 }
 
 .controller{
-    width: 27%;
-    border: 25px solid rgb(0, 0, 0);
+    width: 25.5%;
+    border: 30px solid rgb(0, 0, 0);
     text-align: center;
-    height: 450px;
+    height: 520px;
     align-items: center;
     margin: 50px;
     padding-top: 32px;
@@ -48,6 +49,31 @@ body,
     font-size: 40px;
 }
 
-.objecttext{
-    padding-top: 70%;
+.objtexttitle{
+    margin-top: 60%;
+    font-size: 50px;
+    border: solid 5px red;
+    border-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.objtextdesc{
+   font-size: 20px;
+   padding-top: 5px;
+   text-align: center;
+   border: solid 5px red;
+   border-top: 0px;
+   border-bottom: 0px;
+   flex-direction: column;
+}
+
+.objtextquote{
+    border: solid 5px red;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 3px 0px 3px 0px;
+    text-align: center;
+    font-size: 17.5px;
+    flex-direction: column;
 }
