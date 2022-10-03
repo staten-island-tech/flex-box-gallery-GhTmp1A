@@ -33,6 +33,7 @@ body,
     display: flex;
     justify-content: space-between;
     justify-content: space-around;
+    justify-content: center;
 }
 
 .controller{
@@ -42,20 +43,21 @@ body,
     height: 520px;
     align-items: center;
     margin: 50px;
-    padding-top: 32px;
     background-color: white;
     box-shadow: gray 10px 10px;
     border-radius: 65px;
     font-size: 40px;
+    background-image: url("imgs/Penguin.jpg");
+    background-size: 400px;
 }
 
 .objtexttitle{
-    margin-top: 60%;
     font-size: 50px;
     border: solid 5px red;
     border-bottom: 0px;
     display: flex;
     flex-direction: column;
+    background-color: blue  ;
 }
 
 .objtextdesc{
@@ -66,6 +68,8 @@ body,
    border-top: 0px;
    border-bottom: 0px;
    flex-direction: column;
+   padding-bottom: 2.5px;
+   background-color: blue  ;
 }
 
 .objtextquote{
@@ -75,5 +79,13 @@ body,
     padding: 3px 0px 3px 0px;
     text-align: center;
     font-size: 17.5px;
+    flex-direction: column;
+    margin-bottom: 0 auto;
+    background-color: blue  ;
+}
+
+.image1  {
+    align-items: center;
+    height: 275px;
     flex-direction: column;
 }
