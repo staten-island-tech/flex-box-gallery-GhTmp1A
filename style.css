@@ -40,14 +40,14 @@ body,
 
 .controller_object-1,.controller_object-2,.controller_object-3,.controller_object-4,.controller_object-5,.controller_object-6,.controller_object-7,.controller_object-8,.controller_object-9{
     width: 25.5%;
-    border: 30px solid rgb(0, 0, 0);
+    border: 30px solid rgb(202, 21, 21);
+    border-radius: 65px;
     text-align: center;
-    height: 520px;
+    height: 517.5px;
     align-items: center;
     margin: 50px;
     background-color: white;
-    box-shadow: gray 10px 10px;
-    border-radius: 65px;
+    box-shadow: rgb(179, 19, 19) 10px 10px;
     font-size: 40px;
 }
 
@@ -55,18 +55,19 @@ body,
 
 .objtexttitle{
     font-size: 50px;
-    border: solid 5px red;
+    border: solid 5px rgb(202, 21, 21);
     border-bottom: 0px;
     display: flex;
     flex-direction: column;
     background-color: blue;
+    color: white;
 }
 
 .objtextdesc{
    font-size: 20px;
    padding-top: 5px;
    text-align: center;
-   border: solid 5px red;
+   border: solid 5px rgb(202, 21, 21);
    border-top: 0px;
    border-bottom: 0px;
    flex-direction: column;
@@ -75,7 +76,7 @@ body,
 }
 
 .objtextquote{
-    border: solid 5px red;
+    border: solid 5px rgb(202, 21, 21);
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
     padding: 3px 0px 3px 0px;
@@ -83,7 +84,8 @@ body,
     font-size: 17.5px;
     flex-direction: column;
     margin-bottom: 0 auto;
-    background-color: blue  ;
+    background-image: url(imgs/tf2\ RED\ pattern.jpg);
+    color: black;
 }
 
 .image1  {
