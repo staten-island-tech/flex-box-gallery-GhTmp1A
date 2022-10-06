@@ -16,7 +16,7 @@ body,
 
 .header{
     color: white;
-    height: 50vh;
+    height: 60vh;
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -26,10 +26,12 @@ body,
 }
 
 .classicons{
+    padding: 25px;
     border: solid rgb(0, 0, 0) 5px;
     border-radius: 1rem;
-    padding: 20px;
     align-items: center;
+    margin-top: 1rem;
+
 }
 
 .header-title{
@@ -37,6 +39,7 @@ body,
     text-align:center;
     
 }
+
 
 
 .parent{
@@ -56,11 +59,9 @@ body,
     align-items: center;
     margin: 50px;
     background-color: white;
-    box-shadow: rgb(179, 19, 19) 10px 10px 1vw;
+    box-shadow: rgb(179, 19, 19) 1.5rem 1.5rem 7.5px;
     font-size: 40px;
 }
-
-
 
 .objtexttitle{
     font-size: 50px;
@@ -84,13 +85,14 @@ body,
    padding-bottom: 2.5px;
    background-color: rgb(65, 65, 65);
    color: white;
+   height: 6.5rem;
    background-size: 25vw;
    align-items: center;
    background-repeat: repeat-x 100px;
 }
 
 .objtextquote{
-    border: solid 5px rgb(202, 21, 21);
+    border: solid 10px rgb(202, 21, 21);
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
     padding: 3px 0px 3px 0px;
