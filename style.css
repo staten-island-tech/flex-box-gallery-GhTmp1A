@@ -5,22 +5,31 @@ body,
     padding:0;
     box-sizing:border-box;
     font-size: 62.5%;
+    font-family: 'Finlandica', sans-serif;
 }
 
 .allbox{
     background-image: url(imgs/tf2\ wall\ of\ achievments.jpg);
+    background-size: ;
 }
 
 
 .header{
     color: white;
-    height: 45vh;
+    height: 50vh;
     justify-content: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: rgb(212, 57, 57);
 
+}
+
+.classicons{
+    border: solid rgb(0, 0, 0) 5px;
+    border-radius: 1rem;
+    padding: 20px;
+    align-items: center;
 }
 
 .header-title{
@@ -31,7 +40,7 @@ body,
 
 
 .parent{
-    font-size: 30px;
+    font-size: 1rem;
     display: flex;
     justify-content: space-between;
     justify-content: space-around;
@@ -43,11 +52,11 @@ body,
     border: 30px solid rgb(202, 21, 21);
     border-radius: 65px;
     text-align: center;
-    height: 517.5px;
+    height: 512px;
     align-items: center;
     margin: 50px;
     background-color: white;
-    box-shadow: rgb(179, 19, 19) 10px 10px;
+    box-shadow: rgb(179, 19, 19) 10px 10px 1vw;
     font-size: 40px;
 }
 
@@ -56,11 +65,14 @@ body,
 .objtexttitle{
     font-size: 50px;
     border: solid 5px rgb(202, 21, 21);
-    border-bottom: 0px;
+    border-bottom: 1px;
     display: flex;
     flex-direction: column;
-    background-color: blue;
-    color: white;
+    background-image: url(imgs/tf2\ competitive\ logo.png);
+    background-size: 80vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
 }
 
 .objtextdesc{
@@ -68,11 +80,13 @@ body,
    padding-top: 5px;
    text-align: center;
    border: solid 5px rgb(202, 21, 21);
-   border-top: 0px;
-   border-bottom: 0px;
    flex-direction: column;
    padding-bottom: 2.5px;
-   background-color: blue  ;
+   background-color: rgb(65, 65, 65);
+   color: white;
+   background-size: 25vw;
+   align-items: center;
+   background-repeat: repeat-x 100px;
 }
 
 .objtextquote{
@@ -85,7 +99,9 @@ body,
     flex-direction: column;
     margin-bottom: 0 auto;
     background-image: url(imgs/tf2\ RED\ pattern.jpg);
-    color: black;
+    background-size: 20vw;
+    background-position: 5px;
+    color: white;
 }
 
 .image1  {
@@ -93,6 +109,8 @@ body,
     height: 275px;
     flex-direction: column;
     margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 
