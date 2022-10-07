@@ -10,7 +10,6 @@ body,
 
 .allbox{
     background-image: url(imgs/tf2\ wall\ of\ achievments.jpg);
-    background-size: ;
 }
 
 
@@ -22,15 +21,19 @@ body,
     flex-direction: column;
     align-items: center;
     background-color: rgb(212, 57, 57);
+    background-image: url(imgs/tf2\ website\ background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
 .classicons{
-    padding: 25px;
+    padding: 15px;
     border: solid rgb(0, 0, 0) 5px;
     border-radius: 1rem;
     align-items: center;
     margin-top: 1rem;
+    background-color: rgb(202, 21, 21);
 
 }
 
@@ -39,8 +42,6 @@ body,
     text-align:center;
     
 }
-
-
 
 .parent{
     font-size: 1rem;
@@ -61,6 +62,7 @@ body,
     background-color: white;
     box-shadow: rgb(179, 19, 19) 1.5rem 1.5rem 7.5px;
     font-size: 40px;
+    background-position: center;
 }
 
 .objtexttitle{
@@ -104,6 +106,7 @@ body,
     background-size: 20vw;
     background-position: 5px;
     color: white;
+    
 }
 
 .image1  {
@@ -118,52 +121,42 @@ body,
 
 .controller_object-1{
     background-image: url(imgs/Demoman\ tf2\ background.png);
-    background-position: center;
     background-size: 500px;
 }
 
 .controller_object-2{
     background-image: url(imgs/Heavy\ tf2\ background.png);
-    background-position: center;
 }
 
 .controller_object-3{
     background-image: url(imgs/Spy\ tf2\ background.png);
-    background-position: center;
-    background-repeat: repeat;
 }
 
 .controller_object-4{
     background-image: url(imgs/Engineer\ tf2\ background.png);
-    background-position: center;
     background-size: 500px;
 }
 
 .controller_object-5{
     background-image: url(imgs/Pyro\ tf2\ background.png);
-    background-position: center;
     background-size: 500px;
 }
 .controller_object-6 {
     background-image: url(imgs/Medic\ tf2\ background.png);
-    background-position: center;
     background-size: 500px;
 }
 
 .controller_object-7{
     background-image: url(imgs/Scout\ tf2\ background.png);
-    background-position: center;
     background-size: 500px;
 }
 
 .controller_object-8{
     background-image: url(imgs/Soldier\ tf2\ background.png);
-    background-position: center;
     background-size: 500px;
 }
 
 .controller_object-9{
     background-image: url(imgs/Sniper\ tf2\ background.png);
-    background-position: center;
     background-size: 500px;
 }
