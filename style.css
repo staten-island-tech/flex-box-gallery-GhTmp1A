@@ -27,9 +27,39 @@ body,
 
 }
 
+.header-title{
+    transition: all .75s;
+}
+
 .header-title:hover{
-    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-    transition: all .4s;
+    rotate: 2.5deg;
+    scale: 1.02;
+    margin: 5px;
+    color: white;
+    padding: 5px;
+    background-color: rgb(212, 57, 57, .8);
+    border: solid 6.5px rgb(179, 19, 19);
+    border-radius: 3px;
+    background-image: url(imgs/tf2\ competitive\ logo.png);
+    background-position: center;
+    background-size: 20vh;
+}
+
+@keyframes later{
+    0%{
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    50%{
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px)
+    }
+
+    100%{   
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px)
+    }
 }
 
 .classicons{
