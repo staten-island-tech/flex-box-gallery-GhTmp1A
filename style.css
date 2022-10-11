@@ -45,10 +45,10 @@ body,
     background-size: 20vh;
 }
 
-@keyframes later{
+@keyframes controller{
     0%{
-        -webkit-transform: translateY(-20px);
-        transform: translateY(-20px);
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
     }
 
     50%{
@@ -57,8 +57,8 @@ body,
     }
 
     100%{   
-        -webkit-transform: translateY(-20px);
-        transform: translateY(-20px)
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px)
     }
 }
 
@@ -102,6 +102,7 @@ body,
 }
 
 .controller_object-1,.controller_object-2,.controller_object-3,.controller_object-4,.controller_object-5,.controller_object-6,.controller_object-7,.controller_object-8,.controller_object-9{
+    transition: all .4s;
     width: 25.5%;
     border: 30px solid rgb(202, 21, 21);
     border-radius: 65px;
@@ -130,7 +131,7 @@ body,
 }
 
 .objtextdesc{
-   font-size: 20px;
+   font-size: 18.7px;
    padding-top: 5px;
    text-align: center;
    border: solid 5px rgb(202, 21, 21);
@@ -169,6 +170,23 @@ body,
     margin: 5px;
     border: 1px solid black;
     border-radius: 5px;
+}
+
+
+
+
+
+
+.controller_object-1:hover,.controller_object-2:hover,.controller_object-3:hover,.controller_object-4:hover,.controller_object-5:hover,.controller_object-6:hover,.controller_object-7:hover,.controller_object-8:hover,.controller_object-9:hover{
+    border: 30px solid rgb(133, 13, 13);
+    box-shadow: rgb(179, 19, 19) 1.5rem 1.5rem 7.5px;
+    animation: controller 3s infinite;
+    animation: ease-in: opacity: 1;
+    transform: scale(1);
+
+}
+
+.controller_object-1:not(:hover){
 }
 
 .controller_object-1{
