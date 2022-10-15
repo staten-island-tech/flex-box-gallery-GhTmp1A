@@ -10,6 +10,8 @@ body,
 
 .allbox{
     background-image: url(imgs/tf2\ wall\ of\ achievments.jpg);
+    background-repeat: repeat;
+    flex-wrap: wrap;
 }
 
 
@@ -28,6 +30,7 @@ body,
 }
 
 .header-title{
+    font-size: 1rem;
     transition: all .75s;
     width: 1675px;
 }
@@ -121,6 +124,7 @@ body,
 
 .parent{
     font-size: 1rem;
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
     justify-content: space-around;
@@ -130,7 +134,7 @@ body,
 
 .controller_object-1,.controller_object-2,.controller_object-3,.controller_object-4,.controller_object-5,.controller_object-6,.controller_object-7,.controller_object-8,.controller_object-9{
     transition: all .4s;
-    width: 1500px;
+    width: 47.5rem;
     border: 30px solid rgb(202, 21, 21);
     border-radius: 40px;
     text-align: center;
@@ -330,9 +334,25 @@ body{
 }
 
 
-@media and (max-width:1170px){
-    html, body, *{
-        transform: scale(.6);
-        font-size: 89%;
+@media all and (max-width:105rem){
+    .header-title{
+        width: 700px;
+
+    }
+}
+
+@media all and (max-width:70rem){
+    .allbox{
+        text-align: center;
+    }
+    .header-title{
+        width: 500px;
+    }
+}
+
+@media all and (max-width:50rem){
+    .allbox{
+        background-repeat: contain;
+        text-align: center;
     }
 }
