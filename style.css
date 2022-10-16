@@ -30,7 +30,7 @@ body,
 }
 
 .header-title{
-    font-size: 1rem;
+    font-size: 17.5px;
     transition: all .75s;
     width: 1675px;
 }
@@ -337,7 +337,6 @@ body{
 @media all and (max-width:105rem){
     .header-title{
         width: 700px;
-
     }
 }
 
@@ -347,6 +346,9 @@ body{
     }
     .header-title{
         width: 500px;
+        font-size: 75px;
+    }
+    .classicons{
     }
 }
 
@@ -354,5 +356,12 @@ body{
     .allbox{
         background-repeat: contain;
         text-align: center;
+    }
+    .header-title{
+        font-size: 50px;
+    }
+    .classicons{
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
     }
 }
