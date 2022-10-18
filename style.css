@@ -78,6 +78,8 @@ body,
 	animation: gradient 15s ease infinite;
 }
 
+
+
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
@@ -103,6 +105,7 @@ body,
 
 .classiconsimages{
     transition: all .4s;
+    width: 67px;
 }
 
 .classiconsimages:hover{
@@ -343,15 +346,28 @@ body{
         margin-right: 30px;
         width: 46rem;
     }
+    .classiconsimages{
+        width: 65px;
+    }
 }
 
 @media all and (max-width:70rem){
     .allbox{
         text-align: center;
     }
+    .header-title:hover{
+        padding: 0px;
+    }
     .header-title{
         width: 500px;
         font-size: 75px;
+    }
+    .classiconsimages{
+        width: 60px;
+    }
+    .objtextdesc{
+        padding: top 5px; ;
+        font-size: 16px;
     }
 }
 
@@ -362,7 +378,7 @@ body{
         text-align: center;
     }
     .parent{
-        margin: 5px;
+        margin: 0px;
     }
     .header-title{
         font-size: 50px;
@@ -370,6 +386,13 @@ body{
     .classicons{
         margin-left: 1.5rem;
         margin-right: 1.5rem;
+    }
+    .classiconsimages{
+        width: 55px;
+    }
+    .objtextdesc{
+        font-size: 13px;
+        padding: 5px;
     }
 }
 
@@ -385,6 +408,12 @@ body{
     margin: 0px;
     }
     .controller_object-1,.controller_object-2,.controller_object-3,.controller_object-4,.controller_object-5,.controller_object-6,.controller_object-7,.controller_object-8,.controller_object-9{
-        margin: 10px;
+        margin: 22.5px;
+    }
+    .classicons{
+        background-size: 100% 100%;
+    }
+    .classiconsimages{
+        width: 47.5px;
     }
 }
