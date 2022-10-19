@@ -150,7 +150,7 @@ body,
 }
 
 .objtexttitle{
-    font-size: 50px;
+    font-size: 47.5px;
     border: solid 5px rgb(202, 21, 21);
     display: flex;
     align-items: center;
@@ -256,13 +256,14 @@ body,
 
 
 
-.objtexttitle:hover,.objtextdesc:hover,.objtextquote:hover{
-    border: solid 6.75px rgb(158, 16, 16);
+.objtexttitle:hover,.objtextdesc:hover, .objtextquote:hover{
+    border: solid 5px rgb(158, 16, 16);
 }
 
 .objtextquote:hover{
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
+    
 }
 
 @keyframes spin{
@@ -335,12 +336,19 @@ body{
     background-image: url(imgs/Sniper\ tf2\ background.png);
     background-size: 500px;
 }
-
+@media all and (max-width:110rem){
+    .controller_object-1,.controller_object-2,.controller_object-3,.controller_object-4,.controller_object-5,.controller_object-6,.controller_object-7,.controller_object-8,.controller_object-9{
+        margin-left: 30px;
+        margin-right: 30px;
+        width: 47.5rem;
+    }
+}
 
 @media all and (max-width:108rem){
     .header-title{
         width: 700px;
     }
+    
     .controller_object-1,.controller_object-2,.controller_object-3,.controller_object-4,.controller_object-5,.controller_object-6,.controller_object-7,.controller_object-8,.controller_object-9{
         margin-left: 30px;
         margin-right: 30px;
@@ -369,6 +377,9 @@ body{
         padding: top 5px; ;
         font-size: 16px;
     }
+    .controller_object-1,.controller_object-2,.controller_object-3,.controller_object-4,.controller_object-5,.controller_object-6,.controller_object-7,.controller_object-8,.controller_object-9{
+        width: 45rem;
+    }
 }
 
 
@@ -394,6 +405,9 @@ body{
         font-size: 13px;
         padding: 5px;
     }
+    .controller_object-1,.controller_object-2,.controller_object-3,.controller_object-4,.controller_object-5,.controller_object-6,.controller_object-7,.controller_object-8,.controller_object-9{
+        width: 44.5rem;
+    }
 }
 
 @media all and (max-width:40rem){
@@ -409,11 +423,19 @@ body{
     }
     .controller_object-1,.controller_object-2,.controller_object-3,.controller_object-4,.controller_object-5,.controller_object-6,.controller_object-7,.controller_object-8,.controller_object-9{
         margin: 22.5px;
+        width: 44rem;
     }
     .classicons{
         background-size: 100% 100%;
     }
     .classiconsimages{
         width: 47.5px;
+    }
+    .objtextdesc{
+        padding: 10px;
+        font-size: 12px;
+    }
+    .image1{
+        height: 250px;
     }
 }
