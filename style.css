@@ -435,7 +435,7 @@ body{
         padding: 10px;
         font-size: 12px;
     }
-    .image1{
-        height: 250px;
+    .image1:hover{
+        height: 200px;
     }
 }
